@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: 'Josefin Sans',Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+text-align: center;
+
+}
+
+
+section{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width:800px){
+
+.cores_fortes{
+        
+        width: 100%;
+        height: 150px;
+        margin: 0 auto;
+        background: #04716E;
+
+    }
+.degrade_topo{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(187deg, #04716E 50%, #fff 51% );
+   
+}
+
+.titulo_pagina{
+    background: #0F252E;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+}
+.subtitulo_g{
+    font-size: 28px;
+    position: relative;
+    color: white;
+    background-color: #04716E;
+    padding: 5px 10px;
+    position: absolute;
+    margin-top: 0px;
+    left: 50px;
+    top: 85px;
+}
+.cubo_esquerdo {
+    padding: 2%;
+    width: 24px;
+    height: 26px;
+    float: left;
+ 
+}
+
+.cubo_direito_topo {
+    width: 24px;
+    height: 26px;
+    float: right;
+    padding: 2%;
+    margin-top: 15%;
+}
+.cubo_direito_frase {
+    width: 24px;
+    height: 26px;
+    float: right;
+    padding: 2%;
+    margin-top: 15%;
+}
+.cubo_central {
+    width: 100px;
+    height: 120px;
+    position: relative;
+    margin:140px auto;
+}
+.foto {
+    margin: 20px;
+    width: 120px;
+    box-shadow: -10px 10px #EE145B, 10px -10px #65F6F3;
+}
+.titulo{
+    color: #04716E;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+.artigo {
+    z-index: 3;
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    color: #000;
+}
+.degrade_meio{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(174deg, #fff 50.5%, #04716E 52% );
+
+}
+.artigo p{
+    width: 80%;
+    height: 150px;
+    background: none;
+}
+
+.frase{
+    background: #04716E;
+    height: 320px;
+}
+
+p{
+color: #fff;
+margin-top: 20px;
+margin: 0 auto;
+padding: 10px;
+
+
+}
+.social_icones{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-items: center;
+}
+.social{
+    display: inline-block;
+    width: 40px;
+    padding: 10px 5%;
+}
+.cartoes{
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.cartao_rosa{
+    padding:20px;
+    width: 80%;
+    height: 260px auto;
+    margin: 20px auto;
+    background: #EE145B;
+    border-radius: 50px;
+}
+
+.cartao_verde_claro{
+    padding: 20px;
+    width: 80%;
+    height: 260px auto;
+    margin: 20px auto;
+    background: #65F6F3;
+    border-radius: 50px;
+}
+.cartao_verde_claro p{
+ color: #0F252E;
+}
+
+.cartao_verde_escuro{
+    padding: 20px;
+    width: 80%;
+    height: 260px auto;
+    margin: 20px auto;
+    background: #0F252E;
+    border-radius: 50px;
+}
+
+.cartao_verde_medio{
+    padding: 20px;
+    width: 80%;
+    height: 260px auto;
+    margin: 20px auto;
+    background: #04716E;
+    border-radius: 50px;
+}
+footer{
+    background: #04716E;
+    margin: 0;
+    padding: 10px 0 10px 0;;
+}
+
+}/*final @media (max-width:768px)*/
+@media (min-width:801px){
+    .cores_fortes{
+        
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        background: #04716E;
+
+    }
+.degrade_topo{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(187deg, #04716E 50%, #fff 51% );
+   
+}
+
+.titulo_pagina{
+background: #0F252E;
+color: white;
+font-size: 32px;
+padding: 5px 10px;
+position: absolute;
+left: 10%;
+top: 50px;
+}
+
+.subtitulo_g{
+font-size: 50px;
+position: relative;
+color: white;
+background-color: #04716E;
+padding: 5px 10px;
+position: absolute;
+margin-top: 0px;
+left: 8.5%;
+top: 85px;
+}
+.cubo_esquerdo {
+padding: 2%;
+width: 34px;
+height: 38px;
+float: left;
+
+}
+
+.cubo_direito_topo {
+    width: 34px;
+    height: 38px;
+    float: right;
+    padding: 2%;
+    margin-top: 15%;
+}
+.cubo_direito_frase {
+    width: 34px;
+    height: 38px;
+    float: right;
+    padding-right: 2%;
+
+
+}
+.cubo_central {
+width: 150px;
+height: 170px;
+position: relative;
+margin:220px auto;
+}
+
+.css_desktop{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.foto {
+width: 250px;
+box-shadow: -10px 10px #EE145B, 10px -10px #65F6F3;
+}
+
+.titulo{
+color: #04716E;
+font-size: 36px;
+font-weight: 400;
+letter-spacing: 0.1em;
+text-align: center;
+padding: 20px;
+}
+.artigo {
+z-index: 3;
+width: 100%;
+height:auto;
+font-size: 28px;
+color: #000;
+margin-top: 30px;
+}
+.artigo p{
+width: 90%;
+height: 150px;
+background: none;
+}
+
+.degrade_meio{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(-185.5deg, #fff 50.5%, #04716E 52% );
+
+}
+
+.frase{
+background: #04716E;
+height: 200px;
+margin-top: -50px;
+}
+
+p{
+color: #fff;
+margin-top: 20px;
+margin: 0 auto;
+padding: 20px;
+width: 90%;
+
+
+}
+.social_icones{
+width: 100%;
+height: 100px;
+margin-top: 20px;
+background: #fff;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-items: center;
+}
+.social{
+display: inline-block;
+width: 40px;
+padding: 10px 5%;
+}
+.cartoes{
+display: grid;
+font-size: 20px;
+width: 100%;
+grid-template-columns: 1fr 1fr;
+justify-items: center;
+}
+
+.cartao_rosa{
+padding:20px;
+width: 80%;
+height: 260px auto;
+margin: 20px auto;
+background: #EE145B;
+border-radius: 50px;
+}
+
+.cartao_verde_claro{
+padding: 20px;
+width: 80%;
+height: 260px auto;
+margin: 20px auto;
+background: #65F6F3;
+border-radius: 50px;
+}
+.cartao_verde_claro p{
+color: #0F252E;
+}
+
+.cartao_verde_escuro{
+padding: 20px;
+width: 80%;
+height: 260px auto;
+margin: 20px auto;
+background: #0F252E;
+border-radius: 50px;
+}
+
+.cartao_verde_medio{
+padding: 30px;
+width: 80%;
+height: 260px auto;
+margin: 20px auto;
+background: #04716E;
+border-radius: 50px;
+}
+footer{
+background: #04716E;
+margin: 0;
+padding: 10px 0 10px 0;;
+}
+}
